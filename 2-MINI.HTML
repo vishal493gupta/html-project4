@@ -1,0 +1,63 @@
+<HTML>
+    <HEAD>
+        <TITLE>ORDER FORM</TITLE>
+    </HEAD>
+    <BODY BGCOLOR="VIOLET" TOPMARGIN=20><CENTER>
+        <P><H1>WELCOME TO SWADESHI CO. PVT. LTD.</H1></P>
+        <P><H5>PLEASE FILL THE ORDER FORM :<H5><P></CENTER>
+
+            <!--&emsp-create four space ,&ensp-create three space,&nbsp-create single space-->
+
+        <FORM>
+            NAME &emsp;&emsp;&emsp;&ensp; <INPUT TYPE="TEXTBOX"  NAME="NAME" VALUE=""><BR><BR>
+            EMAIL ID &emsp;&emsp; <INPUT TYPE="TEXTBOX"  NAME="EMAIL_ID" VALUE=""><BR><BR>
+            CONTACT NO &nbsp;<INPUT TYPE="TEXTBOX"  NAME="CONTACT NO" VALUE=""> <BR><BR>
+            PINCODE &emsp;&emsp; <INPUT TYPE="TEXTBOX"  NAME="PINCODE" VALUE=""><BR><BR>
+        </FORM>
+
+        <!--FOR TABLE-->
+        <TABLE BORDER=2>
+            <TR>
+                <TH>PRODUCT_NAME</TH><TH>PRODUCT_ID</TH><TH>QUANTITY</TH><TH>UNIT PRICE</TH><TH>TOTAL<TH>
+            </TR>
+            <TR>
+                <TD>KURTA_PYJAMA</TD><TD>KP</TD><TD><INPUT TYPE="TEXTBOX" NAME="KURTA" VALUE="" SIZE=10 MAXLENGTH=2></TD><TD>Rs 1500</TD><TD><INPUT TYPE="TEXT" NAME="KURTA" VALUE="Rs. " SIZE=25 MAXLENGTH=10></TD>
+            </TR>
+            <TR>
+                <TD>BLAZER</TD><TD>BLZ</TD><TD><INPUT TYPE="TEXTBOX" NAME="BLAZER" VALUE="" SIZE=10 MAXLENGTH=2></TD><TD>Rs 3300</TD><TD><INPUT TYPE="TEXT" NAME="KURTA" VALUE="Rs. " SIZE=25 MAXLENGTH=10></TD>
+            </TR>
+            <TR>
+                <TD>SWEATSHIRT</TD><TD>SWT</TD><TD><INPUT TYPE="TEXTBOX" NAME="SWEATSHIRT" VALUE="" SIZE=10 MAXLENGTH=2></TD><TD>Rs 899</TD><TD><INPUT TYPE="TEXT" NAME="KURTA" VALUE="Rs. " SIZE=25 MAXLENGTH=10></TD>
+            </TR>
+            <TR>
+                <TD>NEHRU_JACKET</TD><TD>NHJ</TD><TD><INPUT TYPE="TEXTBOX" NAME="NEHRU" VALUE="" SIZE=10 MAXLENGTH=2></TD><TD>Rs 1200</TD><TD><INPUT TYPE="TEXT" NAME="KURTA" VALUE="Rs. " SIZE=25 MAXLENGTH=10></TD>
+            </TR>
+            <TR>
+                <TD>SHIRT</TD><TD>SHIRT</TD><TD><INPUT TYPE="TEXTBOX" NAME="SHIRT" VALUE="" SIZE=10 MAXLENGTH=2></TD><TD>Rs 599</TD><TD><INPUT TYPE="TEXT" NAME="KURTA" VALUE="Rs. " SIZE=25 MAXLENGTH=10></TD>
+            </TR>
+            <TR>
+                <TD>TROUSER</TD><TD>TRU</TD><TD><INPUT TYPE="TEXTBOX" NAME="TROUSER" VALUE="" SIZE=10 MAXLENGTH=2></TD><TD>Rs 1299</TD><TD><INPUT TYPE="TEXT" NAME="KURTA" VALUE="Rs. " SIZE=25 MAXLENGTH=10></TD>
+            </TR>
+            <TR>
+                <TD COLSPAN=4>GRAND_TOTAL</TD><TD><INPUT TYPE="TEXTBOX" NAME="GRAND_TOTAL" VALUE="Rs. " SIZE=25 MAXLENGTH=13></TD>
+            </TR>
+        </TABLE><BR>
+
+        <FORM>
+            <P><B>CREDIT/DEBIT CARD DETAILS</B></P>
+            <P>CARD TYPE:</P>
+            <INPUT TYPE="RADIO" NAME="CARD" VALUE="MASTER" CHECKED>MASTER CARD &emsp; &emsp; &emsp; &emsp; CARD NUMBER <INPUT TYPE="TEXT"  NAME="NUMBER" VALUE="" SIZE=18 MAXLENGTH=16><BR>
+            <INPUT TYPE="RADIO" NAME="CARD" VALUE="VISA">VISA CARD <BR>
+            <INPUT TYPE="RADIO" NAME="CARD" VALUE="AMERICAN">AMERICAN EXPRESS &emsp; &emsp;EXPIRY DATE &nbsp; &nbsp; <INPUT TYPE="TEXT"  NAME="NUMBER" VALUE="MM/YY" SIZE=8 MAXLENGTH=5>              <BR>
+            <INPUT TYPE="RADIO" NAME="CARD" VALUE="RUPAY">RUPAY CARD<BR>
+            <INPUT TYPE="RADIO" NAME="CARD" VALUE="OTHER">OTHER CARD &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp;CVV NUMBER &nbsp; &nbsp;<INPUT TYPE="TEXT"  NAME="NUMBER" VALUE="" SIZE=8 MAXLENGTH=3><BR>
+            <BR>
+            
+            <B>DELIVERY ADDRESS :</B><BR><TEXTAREA ROWS=5 COLS=25 NAME="REMARKS" MAXLENGTH=80></TEXTAREA><BR><BR><BR>
+            
+            <INPUT TYPE="SUBMIT" NAME="SEND" VALUE="SEND ORDER">
+            <INPUT TYPE="RESET" NAME="RESET" VALUE="CLEAR FORM">
+
+        </FORM>
+    </BODY> 
+</HTML>
